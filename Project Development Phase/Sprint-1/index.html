@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'login.css') }}"/>
+</head>
+<body>
+    <div id="login">
+        <h3>LOGIN</h3>
+        <form action="/login" method="post">
+            <input type="email" placeholder="Enter Email Id" name="uname" required/><br>
+            <input type="password" name="upass" placeholder="Enter Password" required>
+            <input type="submit" id="submit" value="login">
+            <a href="/register">New User?</a>
+        </form>
+    </div>
+</body>
+<script>
+    function naveen(){
+        alert("hello ");
+    }
+</script>
+</html>
