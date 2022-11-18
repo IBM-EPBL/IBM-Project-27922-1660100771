@@ -1,0 +1,46 @@
+body{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#login{
+    background:skyblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:60px;
+    padding-top:20px;
+    box-shadow:2px 2px 80px lightgreen;
+    border-radius:10%;
+}
+form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+input{
+    margin-top:20px;
+    height:30px;
+    padding:4px;
+    border-radius:100px;
+    padding-left:20px;
+    box-shadow:0px 0px 48px lightgreen;
+    border:2px solid blue;
+}
+#submit{
+    width:180px;
+    height:30px;
+    border:2px solid blue;
+    border-radius:30px;
+    background:lightgreen;
+    font-weight:bold;
+    color:blue;
+}
+#login h3{
+    color:lightgreen;
+    text-shadow:0px 0px 8px black;
+}
