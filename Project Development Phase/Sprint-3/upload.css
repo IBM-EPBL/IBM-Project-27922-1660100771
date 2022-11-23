@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizeing:border-box;
+}
+body{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:lightgreen;
+    flex-direction:column;
+}
+input{
+    height:30px;
+    padding:8px;
+}
+#submit{
+    padding:0;
+    padding-left:20px;
+    padding-right:20px;
+}
+h3{
+    color:maroon;
+    font-size:28px;
+}
+form{
+    border:2px solid lightgreen;
+    padding:40px;
+    box-shadow:inset 2px 2px 80px yellow, 0px 0px 48px yellow;
+}
