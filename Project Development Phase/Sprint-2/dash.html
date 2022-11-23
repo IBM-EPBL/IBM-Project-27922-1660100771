@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>upload</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'upload.css') }}"/>
+</head>
+<body>
+    <h3>Upload the .csv file with name as (test.csv)</h3><br>
+    <form action = "" method = "post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input id="submit" type = "submit" value="Upload">
+    </form>
+</body>
+</html>
